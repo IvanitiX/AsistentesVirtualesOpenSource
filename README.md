@@ -2,6 +2,10 @@
 
 ¡Hola! Si estás viendo este repositorio puede que sea porque estés en la PyCon ES de 2022.
 
+Cuando hablamos de Asistentes Virtuales a lo mejor no podemos dar una definición exacta, pero podemos referirnos a productos como Alexa o Siri. Esto nos lleva a preguntar a algunos si es que hay alguna magia negra que hace que funcione.
+
+En esta charla comentaremos los componentes que forman parte de un Asistente Virtual y hablaremos de cómo montar uno usando Python, paquetes de pip, otros proyectos Open Source y algún que otro chiste, llegando finalmente a una demo con algunas de esas herramientas y algunos cambios que podamos hacer sobre la marcha. Por ejemplo, ¿podríamos meter todo este proyecto en una Raspberry Pi? ¿podemos hacer que mire en Internet lo que necesite saber?
+
 Puedes encontrar toda la info en el archivo Cuadernillo. Es un Cuaderno de Jupyter.
 
 Si necesitas también los scripts, mira la carpeta `src`. Están en archivos Python, así que puedes ejecutarlos sin problemas.
