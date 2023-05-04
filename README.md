@@ -1,7 +1,3 @@
-![Cartel evento](https://pbs.twimg.com/media/Fdkpc7QWQAAluoz?format=jpg)
-
-***¡Hola!** Si estás viendo este repositorio puede que sea porque estés en la [PyConES de 2022](https://2022.es.pycon.org/).*
-
 ## Sobre el taller
 
 Cuando hablamos de Asistentes Virtuales a lo mejor no podemos dar una definición exacta, pero podemos referirnos a productos como Alexa o Siri. Esto nos lleva a preguntar a algunos si es que hay alguna magia negra que hace que funcione.
@@ -12,3 +8,8 @@ En esta charla comentaremos los componentes que forman parte de un Asistente Vir
 Puedes encontrar toda la info en el archivo `Cuadernillo.ipynb` . Es un Cuaderno de Jupyter.
 
 Si necesitas también los scripts fuera de ese cuadernillo, mira la carpeta `src`. Están en archivos Python, así que puedes ejecutarlos sin problemas.
+
+## Visto en:
+
+![Cartel evento](https://pbs.twimg.com/media/Fdkpc7QWQAAluoz?format=jpg)
+![Cartel evento 2](https://pbs.twimg.com/media/FufrY08WAAAEhLw?format=jpg)
