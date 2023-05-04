@@ -7,6 +7,14 @@ En esta charla comentaremos los componentes que forman parte de un Asistente Vir
 ## ¿Y qué necesito?
 Puedes encontrar toda la info en el archivo `Cuadernillo.ipynb` . Es un Cuaderno de Jupyter.
 
+> **Note**
+>
+> Se recomienda llevar ya instalado el paquete de python RASA.
+> ```
+>   pip install rasa
+> ```
+
+
 Si necesitas también los scripts fuera de ese cuadernillo, mira la carpeta `src`. Están en archivos Python, así que puedes ejecutarlos sin problemas.
 
 ## Visto en:
