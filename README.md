@@ -13,3 +13,4 @@ Si necesitas también los scripts fuera de ese cuadernillo, mira la carpeta `src
 
 ![Cartel evento](https://pbs.twimg.com/media/Fdkpc7QWQAAluoz?format=jpg)
 ![Cartel evento 2](https://pbs.twimg.com/media/FufrY08WAAAEhLw?format=jpg)
+![Cartel evento 3](https://pbs.twimg.com/media/Fufrl7RXwAEO4GB?format=jpg)
