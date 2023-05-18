@@ -1,0 +1,23 @@
+version: "3.1"
+
+nlu:
+- intent: things_to_visit
+  examples: |
+    - qué puedo visitar aquí
+    - dime sitios para ver
+    - qué puedo conocer en Granada
+    - qué atracciones tenéis aquí
+
+- intent: weather
+  examples: |
+    - qué tiempo hace
+    - tiempo en Granada
+    - tiempo hoy
+    - cómo está el tiempo
+
+- intent: libraries
+  examples: |
+  - cuando abre la biblioteca de [la etsiit](school)
+  - a que hora cierra la biblio de [pts](school)
+  - de que a que hora esta abierta la biblioteca de [cartuja](school)
+  - dime el horario de la biblioteca de [fuentenueva](school)

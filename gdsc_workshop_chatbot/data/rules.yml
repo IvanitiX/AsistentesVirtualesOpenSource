@@ -1,0 +1,8 @@
+version: "3.1"
+
+rules:
+
+- rule: Tell the weather if asked
+  steps:
+  - intent: weather
+  - action: action_weather

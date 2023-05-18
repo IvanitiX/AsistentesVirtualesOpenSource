@@ -1,0 +1,8 @@
+version: "3.1"
+
+stories:
+
+- story: things_to_visit
+  steps:
+  - intent: things_to_visit
+  - action: utter_list_of_attractions
