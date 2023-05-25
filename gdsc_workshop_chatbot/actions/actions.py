@@ -32,3 +32,32 @@ class ActionWeather(Action):
         dispatcher.utter_message(text=f"En Granada hacen {temperature} grados.")
 
         return []
+
+class ActionLibrarySchedules(Action):
+
+    def name(self) -> Text:
+         return "action_library_schedules"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        library = next(tracker.get_latest_entity_values('school'))
+
+        schedules = {
+            'etsiit' : 'de 8:30 a 20:30',
+            'pts': 'de 7 de 21',
+            'fuentenueva': 'de 8 a 20',
+            'cartuja': 'de 9 a 17',
+            'default': 'de -- a --. No sé, ¿eso se come?'
+        }
+
+        if library.lower() in ['etsiit', 'pts', 'fuentenueva', 'cartuja']:
+            key = library
+        else:
+            key = 'default'
+
+        dispatcher.utter_message(f'La librería de {library} estará abierta {schedules[key]}')
+
+
+        return []

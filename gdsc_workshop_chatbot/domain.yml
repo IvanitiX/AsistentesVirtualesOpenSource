@@ -1,22 +1,26 @@
-version: "3.1"
-
+version: '3.1'
 intents:
-  - things_to_visit
-  - weather
-
+- libraries
+- nlu_feedback
+- things_to_visit
+- weather
 actions:
-  - action_weather
-
+- action_library_schedules
+- action_weather
+- utter_default_response
 responses:
   utter_list_of_attractions:
-  - text: "Puedes visitar, por ejemplo, la Alhambra. O el Parque de las Ciencias."
-
+  - text: Puedes visitar, por ejemplo, la Alhambra. O el Parque de las Ciencias.
+  utter_default_response:
+  - text: No te he entendido. Si necesitas cualquier cosa llama al Ayuntamiento.
+entities:
+- school
 slots:
   school:
     type: text
+    influence_conversation: true
     mappings:
-    
-
+    - type: custom
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

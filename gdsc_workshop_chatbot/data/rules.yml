@@ -6,3 +6,8 @@ rules:
   steps:
   - intent: weather
   - action: action_weather
+
+- rule: Si no entiendes lo que te estan diciendo, devuelve que no lo entiendes.
+  steps:
+  - intent: nlu_feedback
+  - action: utter_default_response

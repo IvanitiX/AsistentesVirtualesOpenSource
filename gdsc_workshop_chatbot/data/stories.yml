@@ -6,3 +6,18 @@ stories:
   steps:
   - intent: things_to_visit
   - action: utter_list_of_attractions
+
+
+- story: ask_library_schedules_etsiit
+  steps:
+    - intent: libraries
+      entities:
+        - school: etsiit
+    - action: action_library_schedules
+
+- story: interactive_story_1
+  steps:
+  - intent: weather
+  - action: action_weather
+  - intent: nlu_feedback
+  - action: utter_default_response
